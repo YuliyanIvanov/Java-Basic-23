@@ -1,3 +1,5 @@
+package FirstStepsInCodingLab;
+
 public class A02NumsFrom1To10 {
     public static void main(String[] args) {
         System.out.println(1);

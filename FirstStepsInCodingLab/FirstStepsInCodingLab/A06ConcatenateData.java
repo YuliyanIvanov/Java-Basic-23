@@ -1,3 +1,5 @@
+package FirstStepsInCodingLab;
+
 import java.util.Scanner;
 
 public class A06ConcatenateData {
