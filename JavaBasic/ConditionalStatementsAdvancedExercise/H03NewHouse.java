@@ -52,14 +52,12 @@ public class H03NewHouse {
                 break;
         }
 
-        //double diff = Math.abs(budget - expense);
+        double diff = Math.abs(budget - expense);
 
         if (budget >= expense) {
-            double moneyLeft = budget - expense;
-            System.out.printf("Hey, you have a great garden with %d %s and %.2f leva left.%n", count, flower, moneyLeft);
+            System.out.printf("Hey, you have a great garden with %d %s and %.2f leva left.", count, flower, diff);
         } else {
-            double moneyNeeded = expense - budget;
-            System.out.printf("Not enough money, you need %.2f leva more.%n", moneyNeeded);
+            System.out.printf("Not enough money, you need %.2f leva more.", diff);
         }
     }
 }
