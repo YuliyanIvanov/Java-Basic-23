@@ -18,7 +18,7 @@ public class M05AccountBalance {
             //Принтира съобщение ако се въведе грешна сума
 
             if (myMoney < 0) {
-                System.out.println("Invalid operation");
+                System.out.println("Invalid operation!");
                 break;
             }
 
