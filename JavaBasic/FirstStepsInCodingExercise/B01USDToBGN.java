@@ -8,7 +8,6 @@ public class B01USDToBGN {
 
         double usd = Double.parseDouble(scanner.nextLine());
         double bgn = usd * 1.79549;
-
         System.out.printf("%s", bgn);
     }
 }
